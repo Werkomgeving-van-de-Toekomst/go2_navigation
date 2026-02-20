@@ -1,0 +1,33 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maps and data
+slam_maps/
+*.pcd
+*.ply
+
+# Logs
+*.log
